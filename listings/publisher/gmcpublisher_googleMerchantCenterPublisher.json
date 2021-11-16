@@ -1,0 +1,396 @@
+{
+  "$id": "gmcpublisher_googleMerchantCenterPublisher",
+  "$schema": "https://schema.yext.com/config/listings/publisher/v1",
+  "name" : "Google Merchant Center",
+  "medallion": "https://www.yext.com/s/entitylistings/public/images/gmc.svg",
+  "description": "TBD BY PMM",
+  "stream": {
+    "source": "knowledgeGraph",
+    "fields": [
+      "uid",
+      "name",
+      "sku",
+      "gtin",
+      "mpn",
+      "richTextDescription",
+      "id",
+      "stockStatus",
+      "availabilityDate",
+      "color",
+      "size",
+      "brand",
+      "condition",
+      "includesAdultContent",
+      "productHighlights",
+      "expirationDate",
+      "price.value",
+      "price.currencyCode",
+      "productionCost.value",
+      "productionCost.currencyCode",
+      "numberOfItemsInPack",
+      "unitPricingMeasure.value",
+      "unitPricingMeasure.unit",
+      "unitPricingBaseMeasure.value",
+      "unitPricingBaseMeasure.unit",
+      "bundle",
+      "subscriptionPlan.numberOfPeriods",
+      "subscriptionPlan.period",
+      "subscriptionPlan.price.value",
+      "subscriptionPlan.price.currencyCode",
+      "installmentPlan.numberOfPeriods",
+      "installmentPlan.period",
+      "installmentPlan.price.value",
+      "installmentPlan.price.currencyCode",
+      "loyaltyPoints.loyaltyProgramName",
+      "loyaltyPoints.numberOfPoints",
+      "loyaltyPoints.ratioToCurrency",
+      "shippingWeight.unit",
+      "shippingWeight.value",
+      "shippingLength.unit",
+      "shippingLength.value",
+      "shippingWidth.unit",
+      "shippingWidth.value",
+      "shippingHeight.unit",
+      "shippingHeight.value",
+      "landingPageUrl",
+      "mobileOptimizedLandingPage",
+      "targetAgeGroup",
+      "targetGender",
+      "material",
+      "pattern",
+      "sizeType",
+      "sizeSystem",
+      "energyEfficiencyClass"
+    ],
+    "filter": {
+      "entityTypes": [
+        "product"
+      ]
+    }
+  },
+  "destinationFields": [
+    "id",
+    "contentLanguage",
+    "title",
+    "offerId",
+    "link",
+    "mobileLink",
+    "description",
+    "availability",
+    "availabilityDate",
+    "color",
+    "size",
+    "brand",
+    "gtin",
+    "expirationDate",
+    "mpn",
+    "condition",
+    "adult",
+    "energyEfficiencyClass",
+    "minEnergyEfficiencyClass",
+    "maxEnergyEfficiencyClass",
+    "ageGroup",
+    "gender",
+    "material",
+    "pattern",
+    "sizeType",
+    "sizeSystem",
+    "productHighlights",
+    "imageLink",
+    "additionalImageLinks",
+    "additionalSizeType",
+    "pickupMethod",
+    "price.value",
+    "price.currency",
+    "salePrice.value",
+    "salePrice.currency",
+    "salePriceEffectiveDate",
+    "multipack",
+    "unitPricingMeasure.value",
+    "unitPricingMeasure.unit",
+    "unitPricingBaseMeasure.value",
+    "unitPricingBaseMeasure.unit",
+    "isBundle",
+    "installment.months",
+    "installment.price.value",
+    "installment.price.currency",
+    "loyaltyPoints.name",
+    "loyaltyPoints.pointsValue",
+    "loyaltyPoints.ratio",
+    "shippingWeight.value",
+    "shippingWeight.unit",
+    "shippingLength.value",
+    "shippingLength.unit",
+    "shippingWidth.value",
+    "shippingWidth.unit",
+    "shippingHeight.value",
+    "shippingHeight.unit",
+    "itemGroupId",
+    "includedDestinations",
+    "excludedDestinations",
+    "targetCountry",
+    "googleProductCategory",
+    "productTypes",
+    "adsRedirect",
+    "customLabels",
+    "shoppingAdsExcludedCountries",
+    "shipping.price.value",
+    "shipping.price.currency",
+    "shipping.country",
+    "shipping.region",
+    "shipping.service",
+    "shipping.locationId",
+    "shipping.locationGroupName",
+    "shipping.postalCode",
+    "shipping.minHandlingTime",
+    "shipping.maxHandlingTime",
+    "shipping.minTransitTime",
+    "shipping.maxTransitTime",
+    "shippingLabel",
+    "transitTimeLabel",
+    "taxes.rate",
+    "taxes.country",
+    "taxes.region",
+    "taxes.taxShip",
+    "taxes.locationId",
+    "taxes.postalCode",
+    "taxCategory",
+    "displayAdsId",
+    "displayAdsSimilarIds",
+    "displayAdsTitle",
+    "displayAdsValue",
+    "displayAdsLink",
+    "canonicalLink",
+    "costOfGoodsSold.value",
+    "costOfGoodsSold.currency"
+  ],
+  "mappings": [
+    {
+      "field": "id",
+      "publisherField": "id"
+    },
+    {
+      "field": "name",
+      "publisherField": "title"
+    },
+    {
+      "field": "sku",
+      "publisherField": "offerId"
+    },
+    {
+      "field": "landingPageUrl",
+      "publisherField": "link"
+    },
+    {
+      "field": "mobileOptimizedLandingPage",
+      "publisherField": "mobileLink"
+    },
+    {
+      "field": "richTextDescription",
+      "publisherField": "description"
+    },
+    {
+      "field": "stockStatus",
+      "publisherField": "availability"
+    },
+    {
+      "field": "availabilityDate",
+      "publisherField": "availabilityDate"
+    },
+    {
+      "field": "color",
+      "publisherField": "color"
+    },
+    {
+      "field": "size",
+      "publisherField": "size"
+    },
+    {
+      "field": "brand",
+      "publisherField": "brand"
+    },
+    {
+      "field": "gtin",
+      "publisherField": "gtin"
+    },
+    {
+      "field": "mpn",
+      "publisherField": "mpn"
+    },
+    {
+      "field": "condition",
+      "publisherField": "condition"
+    },
+    {
+      "field": "includesAdultContent",
+      "publisherField": "adult"
+    },
+    {
+      "field": "energyEfficiencyClass",
+      "publisherField": "energyEfficiencyClass"
+    },
+    {
+      "field": "targetAgeGroup",
+      "publisherField": "ageGroup"
+    },
+    {
+      "field": "targetGender",
+      "publisherField": "gender"
+    },
+    {
+      "field": "material",
+      "publisherField": "material"
+    },
+    {
+      "field": "pattern",
+      "publisherField": "pattern"
+    },
+    {
+      "field": "sizeType",
+      "publisherField": "sizeType"
+    },
+    {
+      "field": "sizeSystem",
+      "publisherField": "sizeSystem"
+    },
+    {
+      "field": "productHighlights",
+      "publisherField": "productHighlights"
+    },
+    {
+      "field": "expirationDate",
+      "publisherField": "expirationDate"
+    },
+    {
+      "field": "price.value",
+      "publisherField": "price.value"
+    },
+    {
+      "field": "price.currencyCode",
+      "publisherField": "price.currency"
+    },
+    {
+      "field": "sale.salePrice.value",
+      "publisherField": "salePrice.value"
+    },
+    {
+      "field": "sale.salePrice.currency",
+      "publisherField": "salePrice.currency"
+    },
+    {
+      "field": "sale.saleStartDate",
+      "publisherField": "salePriceEffectiveDate"
+    },
+    {
+      "field": "sale.saleEndDate",
+      "publisherField": "salePriceEffectiveDate"
+    },
+    {
+      "field": "numberOfItemsInPack",
+      "publisherField": "multiPack"
+    },
+    {
+      "field": "unitPricingMeasure.value",
+      "publisherField": "unitPricingMeasure.value"
+    },
+    {
+      "field": "unitPricingMeasure.unit",
+      "publisherField": "unitPricingMeasure.unit"
+    },
+    {
+      "field": "unitPricingBaseMeasure.value",
+      "publisherField": "unitPricingBaseMeasure.value"
+    },
+    {
+      "field": "unitPricingBaseMeasure.unit",
+      "publisherField": "unitPricingBaseMeasure.unit"
+    },
+    {
+      "field": "bundle",
+      "publisherField": "isBundle"
+    },
+    {
+      "field": "installmentPlan.numberOfPeriods",
+      "publisherField": "installment.months"
+    },
+    {
+      "field": "installmentPlan.price.value",
+      "publisherField": "installment.amount.value"
+    },
+    {
+      "field": "installmentPlan.price.currencyCode",
+      "publisherField": "installment.amount.currency"
+    },
+    {
+      "field": "subscriptionPlan.period",
+      "publisherField": "subscriptionCost.period"
+    },
+    {
+      "field": "subscriptionPlan.numberOfPeriods",
+      "publisherField": "subscriptionCost.periodLength"
+    },
+    {
+      "field": "subscriptionPlan.price.value",
+      "publisherField": "subscriptionCost.amount.value"
+    },
+    {
+      "field": "subscriptionPlan.price.currencyCode",
+      "publisherField": "subscriptionCost.amount.currency"
+    },
+    {
+      "field": "loyaltyPoints.loyaltyProgramName",
+      "publisherField": "loyaltyPoints.name"
+    },
+    {
+      "field": "loyaltyPoints.numberOfPoints",
+      "publisherField": "loyaltyPoints.pointsValue"
+    },
+    {
+      "field": "loyaltyPoints.ratioToCurrency",
+      "publisherField": "loyaltyPoints.ratio"
+    },
+    {
+      "field": "shippingWeight.value",
+      "publisherField": "shippingWeight.value"
+    },
+    {
+      "field": "shippingWeight.unit",
+      "publisherField": "shippingWeight.unit"
+    },
+    {
+      "field": "shippingLength.value",
+      "publisherField": "shippingLength.value"
+    },
+    {
+      "field": "shippingLength.unit",
+      "publisherField": "shippingLength.unit"
+    },
+    {
+      "field": "shippingWidth.value",
+      "publisherField": "shippingWidth.value"
+    },
+    {
+      "field": "shippingWidth.unit",
+      "publisherField": "shippingWidth.unit"
+    },
+    {
+      "field": "shippingHeight.value",
+      "publisherField": "shippingHeight.value"
+    },
+    {
+      "field": "shippingHeight.unit",
+      "publisherField": "shippingHeight.unit"
+    },
+    {
+      "field": "productionCost.value",
+      "publisherField": "costOfGoodsSold.value"
+    },
+    {
+      "field": "productionCost.currencyCode",
+      "publisherField": "costOfGoodsSold.currency"
+    }
+  ],
+  "destination": {
+      "destinationId": "googleMerchantCenterPublisher"
+  }
+}
