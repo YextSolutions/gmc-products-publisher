@@ -59,8 +59,7 @@
       "material",
       "pattern",
       "sizeType",
-      "sizeSystem",
-      "energyEfficiencyClass"
+      "sizeSystem"
     ],
     "filter": {
       "entityTypes": [
@@ -224,10 +223,6 @@
     {
       "field": "includesAdultContent",
       "publisherField": "adult"
-    },
-    {
-      "field": "energyEfficiencyClass",
-      "publisherField": "energyEfficiencyClass"
     },
     {
       "field": "targetAgeGroup",
