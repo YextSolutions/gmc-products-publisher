@@ -68,7 +68,7 @@
     }
   },
   "destinationFields": [
-    "id",
+    "entityId",
     "contentLanguage",
     "title",
     "offerId",
@@ -166,7 +166,7 @@
   "mappings": [
     {
       "field": "id",
-      "publisherField": "id"
+      "publisherField": "entityId"
     },
     {
       "field": "name",
