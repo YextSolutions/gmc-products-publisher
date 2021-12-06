@@ -8,6 +8,7 @@
     "source": "knowledgeGraph",
     "fields": [
       "uid",
+      "meta.locale",
       "name",
       "sku",
       "gtin",
@@ -16,6 +17,7 @@
       "id",
       "stockStatus",
       "availabilityDate",
+      "salesChannel",
       "color",
       "size",
       "brand",
@@ -59,7 +61,8 @@
       "material",
       "pattern",
       "sizeType",
-      "sizeSystem"
+      "sizeSystem",
+      "gmc_targetCountry"
     ],
     "filter": {
       "entityTypes": [
@@ -175,6 +178,18 @@
     {
       "field": "sku",
       "publisherField": "offerId"
+    },
+    {
+      "field": "meta.locale",
+      "publisherField": "contentLanguage"
+    },
+    {
+      "field": "gmc_targetCountry",
+      "publisherField": "targetCountry"
+    },
+    {
+      "field": "salesChannel",
+      "publisherField": "channel"
     },
     {
       "field": "landingPageUrl",
