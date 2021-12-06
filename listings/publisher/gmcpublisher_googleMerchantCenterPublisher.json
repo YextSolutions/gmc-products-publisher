@@ -25,7 +25,7 @@
       "includesAdultContent",
       "productHighlights",
       "expirationDate",
-      "photoGallery",
+      "primaryPhoto.image.url",
       "price.value",
       "price.currencyCode",
       "productionCost.value",
@@ -100,7 +100,7 @@
     "sizeType",
     "sizeSystem",
     "productHighlights",
-    "imageLinks",
+    "imageLink",
     "additionalSizeType",
     "pickupMethod",
     "price.value",
@@ -193,8 +193,8 @@
       "publisherField": "channel"
     },
     {
-      "field": "photoGallery",
-      "publisherField": "imageLinks"
+      "field": "primaryPhoto.image.url",
+      "publisherField": "imageLink"
     },
     {
       "field": "landingPageUrl",
