@@ -75,6 +75,7 @@
     "contentLanguage",
     "title",
     "offerId",
+    "channel",
     "link",
     "mobileLink",
     "description",
