@@ -97,7 +97,7 @@
     "gender",
     "material",
     "pattern",
-    "sizeType",
+    "sizeTypes",
     "sizeSystem",
     "productHighlights",
     "imageLink",
@@ -262,7 +262,7 @@
     },
     {
       "field": "sizeType",
-      "publisherField": "sizeType"
+      "publisherField": "sizeTypes"
     },
     {
       "field": "sizeSystem",
