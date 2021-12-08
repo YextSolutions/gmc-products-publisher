@@ -71,7 +71,7 @@
       ]
     }
   },
-  "publisherFields": [
+  "destinationFields": [
     "entityId",
     "contentLanguage",
     "title",
