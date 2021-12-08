@@ -95,7 +95,7 @@
       "gmc_taxOverride.taxCountry",
       "gmc_taxOverride.taxRegion",
       "gmc_taxOverride.taxShipping",
-      "gmc_taxOverride.taxlocationID",
+      "gmc_taxOverride.taxLocationID",
       "gmc_taxOverride.taxPostalCode",
       "gmc_taxOverride.taxRate",
       "gmc_transitTimeLabel",
