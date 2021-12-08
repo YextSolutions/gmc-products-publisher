@@ -114,9 +114,10 @@
     "unitPricingBaseMeasure.value",
     "unitPricingBaseMeasure.unit",
     "isBundle",
-    "installment.months",
-    "installment.price.value",
-    "installment.price.currency",
+    "installmentPlan.numberOfPeriods",
+    "installmentPlan.period",
+    "installmentPlan.price.value",
+    "installmentPlan.price.currency",
     "loyaltyPoints.name",
     "loyaltyPoints.pointsValue",
     "loyaltyPoints.ratio",
@@ -326,15 +327,19 @@
     },
     {
       "field": "installmentPlan.numberOfPeriods",
-      "publisherField": "installment.months"
+      "publisherField": "installmentPlan.numberOfPeriods"
+    },
+    {
+      "field": "installmentPlan.period",
+      "publisherField": "installmentPlan.period"
     },
     {
       "field": "installmentPlan.price.value",
-      "publisherField": "installment.amount.value"
+      "publisherField": "installmentPlan.price.value"
     },
     {
       "field": "installmentPlan.price.currencyCode",
-      "publisherField": "installment.amount.currency"
+      "publisherField": "installmentPlan.price.currency"
     },
     {
       "field": "subscriptionPlan.period",
