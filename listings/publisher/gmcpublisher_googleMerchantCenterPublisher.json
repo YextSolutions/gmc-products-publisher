@@ -450,10 +450,6 @@
       "publisherField": "excludedDestinations"
     },
     {
-      "field": "gmc_targetCountry",
-      "publisherField": "targetCountry"
-    },
-    {
       "field": "gmc_googleProductCategory",
       "publisherField": "googleProductCategory"
     },
