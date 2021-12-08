@@ -471,7 +471,7 @@
     },
     {
       "field": "gmc_overrideShipping.price.currency",
-      "publisherField": "shipping.price.value"
+      "publisherField": "shipping.price.currency"
     },
     {
       "field": "gmc_overrideShipping.country",
