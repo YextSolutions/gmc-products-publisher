@@ -63,6 +63,42 @@
       "pattern",
       "sizeType",
       "sizeSystem",
+      "gmc_additionalSizeType",
+      "gmc_adsRedirectURL",
+      "gmc_canonicalLink",
+      "gmc_displayAds.displayAdsID",
+      "gmc_displayAds.displayAdsLink",
+      "gmc_displayAds.displayAdsSimilarIDs",
+      "gmc_displayAds.displayAdsTitle",
+      "gmc_displayAds.displayAdsValue",
+      "gmc_excludedDestinations",
+      "gmc_googleProductCategory",
+      "gmc_includedDestinations",
+      "gmc_itemGroupID",
+      "gmc_overrideShipping.country",
+      "gmc_overrideShipping.locationGroupName",
+      "gmc_overrideShipping.locationID",
+      "gmc_overrideShipping.minimumHandlingTime",
+      "gmc_overrideShipping.maximumHandlingTime",
+      "gmc_overrideShipping.minimumTransitTime",
+      "gmc_overrideShipping.maximumTransitTime",
+      "gmc_overrideShipping.postalCode",
+      "gmc_overrideShipping.price.value",
+      "gmc_overrideShipping.price.currency",
+      "gmc_overrideShipping.region",
+      "gmc_overrideShipping.service",
+      "gmc_pickupMethod",
+      "gmc_shippingLabel",
+      "gmc_shoppingAdsExcludedCountries",
+      "gmc_shoppingAdsLabels",
+      "gmc_taxCategoryLabel",
+      "gmc_taxOverride.taxCountry",
+      "gmc_taxOverride.taxRegion",
+      "gmc_taxOverride.taxShipping",
+      "gmc_taxOverride.taxlocationID",
+      "gmc_taxOverride.taxPostalCode",
+      "gmc_taxOverride.taxRate",
+      "gmc_transitTimeLabel",
       "gmc_targetCountry"
     ],
     "filter": {
@@ -303,7 +339,7 @@
     },
     {
       "field": "numberOfItemsInPack",
-      "publisherField": "multiPack"
+      "publisherField": "multipack"
     },
     {
       "field": "unitPricingMeasure.value",
@@ -400,6 +436,154 @@
     {
       "field": "shippingHeight.unit",
       "publisherField": "shippingHeight.unit"
+    },
+    {
+      "field": "gmc_itemGroupID",
+      "publisherField": "itemGroupId"
+    },
+    {
+      "field": "gmc_includedDestinations",
+      "publisherField": "includedDestinations"
+    },
+    {
+      "field": "gmc_excludedDestinations",
+      "publisherField": "excludedDestinations"
+    },
+    {
+      "field": "gmc_targetCountry",
+      "publisherField": "targetCountry"
+    },
+    {
+      "field": "gmc_googleProductCategory",
+      "publisherField": "googleProductCategory"
+    },
+    {
+      "field": "gmc_adsRedirectURL",
+      "publisherField": "adsRedirect"
+    },
+    {
+      "field": "gmc_shoppingAdsLabels",
+      "publisherField": "customLabels"
+    },
+    {
+      "field": "gmc_shoppingAdsExcludedCountries",
+      "publisherField": "shoppingAdsExcludedCountries"
+    },
+    {
+      "field": "gmc_overrideShipping.price.value",
+      "publisherField": "shipping.price.value"
+    },
+    {
+      "field": "gmc_overrideShipping.price.currency",
+      "publisherField": "shipping.price.value"
+    },
+    {
+      "field": "gmc_overrideShipping.country",
+      "publisherField": "shipping.country"
+    },
+    {
+      "field": "gmc_overrideShipping.region",
+      "publisherField": "shipping.region"
+    },
+    {
+      "field": "gmc_overrideShipping.service",
+      "publisherField": "shipping.service"
+    },
+    {
+      "field": "gmc_overrideShipping.locationID",
+      "publisherField": "shipping.locationId"
+    },
+    {
+      "field": "gmc_overrideShipping.locationGroupName",
+      "publisherField": "shipping.locationGroupName"
+    },
+    {
+      "field": "gmc_overrideShipping.postalCode",
+      "publisherField": "shipping.postalCode"
+    },
+    {
+      "field": "gmc_overrideShipping.minimumHandlingTime",
+      "publisherField": "shipping.minHandlingTime"
+    },
+    {
+      "field": "gmc_overrideShipping.maximumHandlingTime",
+      "publisherField": "shipping.maxHandlingTime"
+    },
+    {
+      "field": "gmc_overrideShipping.minimumTransitTime",
+      "publisherField": "shipping.minTransitTime"
+    },
+    {
+      "field": "gmc_overrideShipping.maximumTransitTime",
+      "publisherField": "shipping.maximumTransitTime"
+    },
+    {
+      "field": "gmc_shippingLabel",
+      "publisherField": "shippingLabel"
+    },
+    {
+      "field": "gmc_transitTimeLabel",
+      "publisherField": "transitTimeLabel"
+    },
+    {
+      "field": "gmc_taxOverride.taxRate",
+      "publisherField": "taxes.rate"
+    },
+    {
+      "field": "gmc_taxOverride.taxCountry",
+      "publisherField": "taxes.country"
+    },
+    {
+      "field": "gmc_taxOverride.taxRegion",
+      "publisherField": "taxes.region"
+    },
+    {
+      "field": "gmc_taxOverride.taxShipping",
+      "publisherField": "taxes.taxShip"
+    },
+    {
+      "field": "gmc_taxOverride.taxLocationID",
+      "publisherField": "taxes.locationId"
+    },
+    {
+      "field": "gmc_taxOverride.taxPostalCode",
+      "publisherField": "taxes.postalCode"
+    },
+    {
+      "field": "gmc_taxCategoryLabel",
+      "publisherField": "taxCategory"
+    },
+    {
+      "field": "gmc_pickupMethod",
+      "publisherField": "pickupMethod"
+    },
+    {
+      "field": "gmc_displayAds.displayAdsID",
+      "publisherField": "displayAdsId"
+    },
+    {
+      "field": "gmc_displayAds.displayAdsLink",
+      "publisherField": "displayAdsLink"
+    },
+    {
+      "field": "gmc_displayAds.displayAdsSimilarIDs",
+      "publisherField": "displayAdsSimilarIds"
+    },
+    {
+      "field": "gmc_displayAds.displayAdsTitle",
+      "publisherField": "displayAdsTitle"
+    },
+    {
+      "field": "gmc_displayAds.displayAdsValue",
+      "publisherField": "displayAdsValue"
+    },
+    {
+      "field": "gmc_additionalSizeType",
+      "publisherField": "additionalSizeType"
+    },
+    {
+      "field": "gmc_canonicalLink",
+      "publisherField": "canonicalLink"
     },
     {
       "field": "productionCost.value",
