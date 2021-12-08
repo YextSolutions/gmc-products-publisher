@@ -71,7 +71,7 @@
       ]
     }
   },
-  "destinationFields": [
+  "publisherFields": [
     "entityId",
     "contentLanguage",
     "title",
@@ -114,10 +114,10 @@
     "unitPricingBaseMeasure.value",
     "unitPricingBaseMeasure.unit",
     "isBundle",
-    "installmentPlan.numberOfPeriods",
-    "installmentPlan.period",
-    "installmentPlan.price.value",
-    "installmentPlan.price.currency",
+    "installment.numberOfPeriods",
+    "installment.period",
+    "installment.price.value",
+    "installment.price.currency",
     "loyaltyPoints.name",
     "loyaltyPoints.pointsValue",
     "loyaltyPoints.ratio",
@@ -327,19 +327,19 @@
     },
     {
       "field": "installmentPlan.numberOfPeriods",
-      "publisherField": "installmentPlan.numberOfPeriods"
+      "publisherField": "installment.numberOfPeriods"
     },
     {
       "field": "installmentPlan.period",
-      "publisherField": "installmentPlan.period"
+      "publisherField": "installment.period"
     },
     {
       "field": "installmentPlan.price.value",
-      "publisherField": "installmentPlan.price.value"
+      "publisherField": "installment.price.value"
     },
     {
       "field": "installmentPlan.price.currencyCode",
-      "publisherField": "installmentPlan.price.currency"
+      "publisherField": "installment.price.currency"
     },
     {
       "field": "subscriptionPlan.period",
