@@ -393,15 +393,15 @@
     },
     {
       "field": "subscriptionPlan.numberOfPeriods",
-      "publisherField": "subscription.periodLength"
+      "publisherField": "subscription.numberOfPeriods"
     },
     {
       "field": "subscriptionPlan.price.value",
-      "publisherField": "subscription.amount.value"
+      "publisherField": "subscription.price.value"
     },
     {
       "field": "subscriptionPlan.price.currencyCode",
-      "publisherField": "subscription.amount.currency"
+      "publisherField": "subscription.price.currency"
     },
     {
       "field": "loyaltyPoints.loyaltyProgramName",
