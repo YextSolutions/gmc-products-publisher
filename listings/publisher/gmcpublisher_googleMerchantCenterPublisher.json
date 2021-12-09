@@ -88,7 +88,7 @@
       "gmc_overrideShipping.price.currency",
       "gmc_overrideShipping.region",
       "gmc_overrideShipping.service",
-      "gmc_pickupMethod",
+      "gmc_pickupMethodOption",
       "gmc_shippingLabel",
       "gmc_shoppingAdsExcludedCountries",
       "gmc_shoppingAdsLabels",
@@ -560,7 +560,7 @@
       "publisherField": "taxCategory"
     },
     {
-      "field": "gmc_pickupMethod",
+      "field": "gmc_pickupMethodOption",
       "publisherField": "pickupMethod"
     },
     {
