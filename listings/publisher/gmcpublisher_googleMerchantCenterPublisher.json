@@ -76,29 +76,13 @@
       "gmc_googleProductCategory",
       "gmc_includedDestinations",
       "gmc_itemGroupID",
-      "gmc_overrideShipping.country",
-      "gmc_overrideShipping.locationGroupName",
-      "gmc_overrideShipping.locationID",
-      "gmc_overrideShipping.minimumHandlingTime",
-      "gmc_overrideShipping.maximumHandlingTime",
-      "gmc_overrideShipping.minimumTransitTime",
-      "gmc_overrideShipping.maximumTransitTime",
-      "gmc_overrideShipping.postalCode",
-      "gmc_overrideShipping.price.value",
-      "gmc_overrideShipping.price.currency",
-      "gmc_overrideShipping.region",
-      "gmc_overrideShipping.service",
+      "gmc_shippingOverride",
       "gmc_pickupMethodOption",
       "gmc_shippingLabel",
       "gmc_shoppingAdsExcludedCountries",
       "gmc_shoppingAdsLabels",
       "gmc_taxCategoryLabel",
-      "gmc_taxOverride.taxCountry",
-      "gmc_taxOverride.taxRegion",
-      "gmc_taxOverride.taxShipping",
-      "gmc_taxOverride.taxLocationID",
-      "gmc_taxOverride.taxPostalCode",
-      "gmc_taxOverride.taxRate",
+      "gmc_overrideTax",
       "gmc_transitTimeLabel",
       "gmc_targetCountry"
     ],
@@ -476,53 +460,9 @@
       "publisherField": "shoppingAdsExcludedCountries"
     },
     {
-      "field": "gmc_overrideShipping.price.value",
-      "publisherField": "shipping.price.value"
-    },
-    {
-      "field": "gmc_overrideShipping.price.currency",
-      "publisherField": "shipping.price.currency"
-    },
-    {
-      "field": "gmc_overrideShipping.country",
-      "publisherField": "shipping.country"
-    },
-    {
-      "field": "gmc_overrideShipping.region",
-      "publisherField": "shipping.region"
-    },
-    {
-      "field": "gmc_overrideShipping.service",
-      "publisherField": "shipping.service"
-    },
-    {
-      "field": "gmc_overrideShipping.locationID",
-      "publisherField": "shipping.locationId"
-    },
-    {
-      "field": "gmc_overrideShipping.locationGroupName",
-      "publisherField": "shipping.locationGroupName"
-    },
-    {
-      "field": "gmc_overrideShipping.postalCode",
-      "publisherField": "shipping.postalCode"
-    },
-    {
-      "field": "gmc_overrideShipping.minimumHandlingTime",
-      "publisherField": "shipping.minHandlingTime"
-    },
-    {
-      "field": "gmc_overrideShipping.maximumHandlingTime",
-      "publisherField": "shipping.maxHandlingTime"
-    },
-    {
-      "field": "gmc_overrideShipping.minimumTransitTime",
-      "publisherField": "shipping.minTransitTime"
-    },
-    {
-      "field": "gmc_overrideShipping.maximumTransitTime",
-      "publisherField": "shipping.maximumTransitTime"
-    },
+      "field": "gmc_shippingOverride",
+      "publisherField": "shipping"
+  	},
     {
       "field": "gmc_shippingLabel",
       "publisherField": "shippingLabel"
@@ -532,29 +472,9 @@
       "publisherField": "transitTimeLabel"
     },
     {
-      "field": "gmc_taxOverride.taxRate",
-      "publisherField": "taxes.rate"
-    },
-    {
-      "field": "gmc_taxOverride.taxCountry",
-      "publisherField": "taxes.country"
-    },
-    {
-      "field": "gmc_taxOverride.taxRegion",
-      "publisherField": "taxes.region"
-    },
-    {
-      "field": "gmc_taxOverride.taxShipping",
-      "publisherField": "taxes.taxShip"
-    },
-    {
-      "field": "gmc_taxOverride.taxLocationID",
-      "publisherField": "taxes.locationId"
-    },
-    {
-      "field": "gmc_taxOverride.taxPostalCode",
-      "publisherField": "taxes.postalCode"
-    },
+      "field": "gmc_overrideTax",
+      "publisherField": "taxes"
+  	},
     {
       "field": "gmc_taxCategoryLabel",
       "publisherField": "taxCategory"
