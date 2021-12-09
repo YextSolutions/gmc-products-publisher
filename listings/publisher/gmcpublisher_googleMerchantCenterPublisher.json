@@ -26,6 +26,7 @@
       "productHighlights",
       "expirationDate",
       "primaryPhoto.image.url",
+      "photoGallery",
       "price.value",
       "price.currencyCode",
       "productionCost.value",
@@ -137,6 +138,7 @@
     "sizeSystem",
     "productHighlights",
     "imageLink",
+    "additionalPhotos",
     "additionalSizeType",
     "pickupMethod",
     "price.value",
@@ -154,6 +156,10 @@
     "installment.period",
     "installment.price.value",
     "installment.price.currency",
+    "subscription.numberOfPeriods",
+    "subscription.period",
+    "subscription.price.value",
+    "subscription.price.currency",
     "loyaltyPoints.name",
     "loyaltyPoints.pointsValue",
     "loyaltyPoints.ratio",
@@ -232,6 +238,10 @@
     {
       "field": "primaryPhoto.image.url",
       "publisherField": "imageLink"
+    },
+    {
+      "field": "photoGallery",
+      "publisherField": "additionalPhotos"
     },
     {
       "field": "landingPageUrl",
@@ -379,19 +389,19 @@
     },
     {
       "field": "subscriptionPlan.period",
-      "publisherField": "subscriptionCost.period"
+      "publisherField": "subscription.period"
     },
     {
       "field": "subscriptionPlan.numberOfPeriods",
-      "publisherField": "subscriptionCost.periodLength"
+      "publisherField": "subscription.periodLength"
     },
     {
       "field": "subscriptionPlan.price.value",
-      "publisherField": "subscriptionCost.amount.value"
+      "publisherField": "subscription.amount.value"
     },
     {
       "field": "subscriptionPlan.price.currencyCode",
-      "publisherField": "subscriptionCost.amount.currency"
+      "publisherField": "subscription.amount.currency"
     },
     {
       "field": "loyaltyPoints.loyaltyProgramName",
