@@ -67,6 +67,7 @@
       "gmc_additionalSizeType",
       "gmc_adsRedirectURL",
       "gmc_canonicalLink",
+      "gmc_channel",
       "gmc_displayAds.displayAdsID",
       "gmc_displayAds.displayAdsLink",
       "gmc_displayAds.displayAdsSimilarIDs",
@@ -76,6 +77,7 @@
       "gmc_googleProductCategory",
       "gmc_includedDestinations",
       "gmc_itemGroupID",
+      "gmc_localInventory",
       "gmc_shippingOverride",
       "gmc_pickupMethodOption",
       "gmc_shippingLabel",
@@ -130,6 +132,7 @@
     "salePrice.value",
     "salePrice.currency",
     "salePriceEffectiveDate",
+    "salesChannels",
     "multipack",
     "unitPricingMeasure.value",
     "unitPricingMeasure.unit",
@@ -144,6 +147,7 @@
     "subscription.period",
     "subscription.price.value",
     "subscription.price.currency",
+    "localInventoryData",
     "loyaltyPoints.name",
     "loyaltyPoints.pointsValue",
     "loyaltyPoints.ratio",
@@ -300,6 +304,10 @@
       "publisherField": "price.currency"
     },
     {
+      "field": "gmc_channel",
+      "publisherField": "salesChannels"
+    },
+    {
       "field": "sale.salePrice.value",
       "publisherField": "salePrice.value"
     },
@@ -314,6 +322,10 @@
     {
       "field": "sale.saleEndDate",
       "publisherField": "salePriceEffectiveDate"
+    },
+    {
+      "field": "gmc_localInventory",
+      "publisherField": "localInventoryData"
     },
     {
       "field": "numberOfItemsInPack",
